@@ -1,7 +1,7 @@
 {
   "name": "codiad/codiad",
   "type": "application",
-  "keywords": ["ide","development","environment","editor"],
+  "keywords": ["ide", "development", "environment", "editor"],
   "homepage": "http://www.codiad.com",
   "license": "MIT",
   "description": "Codiad is a web-based IDE framework with a small footprint and minimal requirements. The system is still early in development, and while it has been proven extremely stable please be sure have a backup system if you use it in any production work.",
@@ -37,19 +37,15 @@
     }
   ],
   "minimum-stability": "dev",
-  "require":
-  {
+  "require": {
     "php": ">=5.2.0"
   },
-  "require-dev":
-  {
-  	"phing/phing": "2.*",
+  "require-dev": {
+    "phing/phing": "2.*",
     "squizlabs/php_codesniffer": "*"
   },
-  "extra":
-  {
-    "installer-paths":
-    {
+  "extra": {
+    "installer-paths": {
       "apps/{$name}": ["codiad/codiad"]
     }
   }
